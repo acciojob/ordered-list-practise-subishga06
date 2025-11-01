@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Ordered list styling */
+ol {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 30px;
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* List item styling */
+li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Add subtle hover effect for better readability */
+li:hover {
+  color: #007acc;
+  cursor: default;
+}
